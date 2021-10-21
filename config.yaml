@@ -1,0 +1,15 @@
+settings:
+  playlist_title: Channel 1
+plex:
+  plex_url: 
+  plex_token: 
+  plex_libraryname: 
+  plex_username: 
+  plex_user_token:        # Run Builder to get user token (required for watchdog)
+shows:
+  archer:                   # show title internal (free choice)
+    title: Archer           # Show title - must be exactly equal to Plex
+    start_season: 6         # Start at season x
+    start_episode: 1        # Start at episode x
+    sequence: 4             # Number of episodes of this show to run one after the other
+    loop: true              # Start at the beginning, when the last season is finished
